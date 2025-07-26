@@ -544,8 +544,15 @@ a {
    Responsive Adjustments
 ============================= */
 @media (max-width: 768px) {
+  .services-arrow-layout {
+    padding-left: 110px;
+  }
+}
+
+@media (max-width: 768px) {
   .center-image {
     max-width: 320px;
+    
   }
 
   .service-label {
@@ -564,7 +571,7 @@ a {
 
   .service-label.top-right,
   .service-label.bottom-right {
-    right: -40px;
+    right: -75px;
   }
 
   .service-label.top {
